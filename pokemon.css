@@ -1,0 +1,299 @@
+/* Pokemon-1 */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 213, 152);
+    padding-top: 20vh;
+}
+
+#pokedex1, #top, #top-square, #btn-white, #top-square2, #btn-yellow, #btn-green, #btn-red, #screen2, #screen, #select, #start{
+    display: block;
+    margin: auto;
+} 
+
+
+#pokedex1{
+    width: 350px;
+    height: 520px;
+    background-color: rgb(246, 46, 46);
+    z-index: 3;
+}
+
+#top{
+    width: 75%;
+    height: 50%;
+    position: relative;
+    background: none;
+    border-radius: 0%;
+    z-index: 1;
+}
+#top-square{
+    display: block;
+    width: 55%;
+    margin: auto;
+    background: rgba(197, 29, 29, 0.959);
+    z-index: 1;
+    height: 25%;
+    position: absolute;
+    left: -16.5%;
+}
+
+#btn-white{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 2;
+}
+
+#btn-blue{
+    background-color: rgb(102, 146, 241);
+    border: 50%;
+    width: 85%;
+    height: 85%;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    z-index: 3;
+    border-radius: 50%;
+}
+
+#top-square2{
+    background-color: rgba(197, 29, 29, 0.959);
+    z-index: 3;
+    height: 60%;
+    width: 162%;
+    position: absolute;
+    left: 80%;
+}
+
+#btn-yellow, #btn-green, #btn-red{
+    background-color: rgb(255, 28, 28);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    left: -18%;
+    z-index: 2;
+}
+#btn-green{
+    background-color: rgb(118, 190, 118);
+    left: -8%;
+}
+#btn-yellow{
+    background-color: rgb(238, 238, 142);
+    left: 2%;
+}
+
+#screen2, #screen{
+    position: absolute;
+    background-color: rgb(222, 222, 208);
+    border-radius: 5%;
+    height: 75%;
+    width: 100%;
+    bottom: -10%;
+}
+
+#screen2{
+    width: 80%;
+    top: 8%;
+    left: 10%;
+    bottom: 8%;
+    background-color: beige;
+    border-radius: 8%;
+}
+
+#bottom{
+    height: 50%;
+    border-radius: 5%;
+    position: relative;
+}
+
+#select, #start{
+    cursor: pointer;
+    width: 15%;
+    display: block;
+    margin: 10px auto;
+    height: 8%;
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    background-color: rgb(231, 125, 125);
+    border-radius: 30px;
+
+}
+#select{
+    background-color: rgb(102, 200, 102);
+    left: 30%;
+}
+
+
+#btn-yellow2, #btn-blue2{
+    cursor: pointer;
+    background-color: rgb(74, 159, 224);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 29%;
+    left: 5%;
+    z-index: 2;
+}
+
+#btn-yellow2{
+    background-color: rgb(220, 220, 97);
+    top: 59%;
+    left: 25%;
+    width: 120px;
+    border-radius: 5%;
+}
+
+#pad-vertical, #pad-horizontal{
+    cursor: pointer;
+    background-color: rgb(67, 65, 65);   
+    height: 80px;
+    width: 23px;
+    display: block;
+    position: absolute;
+    top: 32%;
+    right: 16%;
+}
+
+#pad-vertical{
+    width: 80px;
+    height: 23px;
+    top: 42.5%;
+    right: 8%;
+}
+
+/* Pokemon-2 */
+
+#container, #search, #section3, #rectangles4, #section4{
+    display: flex;
+}
+
+#hinge{
+    width: 20px;
+    background-color: rgb(196, 38, 38);
+    border: 5px;
+    height: 470px;
+    margin-top: 45px;
+}
+
+#pokedex2{
+    width: 350px;
+    height: 450px;
+    display: block;
+    margin-top: 70px;
+    background-color: rgb(255, 50, 50);
+    z-index: 3;
+    position: relative;
+}
+
+#hidden{
+    position: absolute;
+    background-color: rgb(249, 49, 49);
+    height: 30px;
+    width: 60%;
+    top: -30px;
+}
+
+#search{
+    background-color: black;
+    height: 50px;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#search-inp{
+    width: 90%;
+    border: none;
+    background-color:rgba(80, 79, 79, 0.674);
+    color: rgb(231, 254, 254);
+    outline: none;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+}
+
+::placeholder{
+    margin-left: 5px;
+    color: lightgray;
+}
+
+#search-btn{
+    color: white;
+    background-color: rgba(106, 99, 99, 0.574);
+    height: 52px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#section2{
+    height: 100px;
+    width: 88%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+#rectangles{
+    background-color: rgb(122, 247, 247);
+}
+
+#section3{
+    height: 70px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+
+#bottom, #pokemon-img, #rectangles2{
+    width: 100%;
+}
+
+.two{
+    background-color: beige;
+    width: 60px;
+    margin: 5px;
+}
+
+#btm-yellow-btn{
+    width: 60px;
+    height: 55px;
+    background-color: rgb(245, 245, 118);
+    margin-right:3px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+#section4{
+    width: 91%;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+#section4 .btn2{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(62, 58, 58);
+}
+
+#pokemon-img{
+    z-index: 1000;
+    height: 100%;
+}

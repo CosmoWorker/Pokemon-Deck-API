@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="pokemon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+</head>
+<body>
+    <div id="container">
+        <!--First Half-->
+        <div id="pokedex1">
+            <!--Top half-->
+            <div id="top">
+                <div id="top-square">
+                    <div id="btn-white">
+                        <div id="btn-blue"></div>
+                    </div>
+                    <div id="top-square2">
+                        <div id="btn-red"></div>
+                        <div id="btn-green"></div>
+                        <div id="btn-yellow"></div>
+                    </div>
+                </div>
+                
+
+                <div id="screen">
+                    <div id="btn-red-screen"></div>
+                    <div id="bar1"></div>
+                    <div id="bar2"></div>
+                    <div id="screen2">
+                        <img src="" id="pokemon-img" style="display: block;">
+                    </div>
+                </div>
+            </div>
+            <!--Bottom half-->
+            <div id="bottom">
+                <div id="btn-blue2"></div>
+                <div id="btn-yellow2"></div>
+                <div id="pad-horizontal"></div>
+                <div id="pad-vertical"></div>
+                <div id="select"></div>
+                <div id="start"></div>
+            </div>
+        </div>
+        <!--Hinge-->
+        <div id="hinge"></div>
+        <!--Second Half-->
+        <div id="pokedex2">
+
+            <div id="hidden"></div>
+
+            <div id="search">
+                <input type="text" id="search-inp" placeholder="Enter Pokemon">
+                <button id="search-btn" onclick="findPokemon()"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <div id="section2">
+                <div id="rectangles"></div>
+                <div id="rectangles"></div>
+                <div id="rectangles"></div>
+                <div id="rectangles"></div>
+                <div id="rectangles"></div>
+                <div id="rectangles"></div>
+                <div id="rectangles"></div>
+                <div id="rectangles"></div>
+            </div>
+
+            <div id="section3">
+                <div id="rectangles2">
+                    <div class="two"></div>
+                    <div class="two"></div>
+                </div>
+                <div id="btm-yellow-btn"></div>
+            </div>
+
+            <div id="section4">
+                <div class="btn2"></div>
+                <div class="btn2"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="pokemon.js"></script>
+</html>
